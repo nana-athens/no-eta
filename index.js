@@ -29,8 +29,8 @@ function daRealMath(maintData, isPatch) {
     const index = Math.floor(maintTimes.length / 2);
     const averageTime = maintTimes.sort((a, b) => a - b)[index];
     mainMessage.innerHTML = `
-    <p>Well, how could I know??</p>
-    <p>But studying the last ${maintTimes.length} ${isPatch? 'patch maintenances' : 'maintenances'}, the ETA is ${getHoursAndMinutesFormat(averageTime)}!</p>
+    <p>Well, how could I know?? We said no ETA!</p>
+    <p>But studying the last ${maintTimes.length} ${isPatch? 'patch maintenances' : 'maintenances'}, the average time it takes is ${getHoursAndMinutesFormat(averageTime)}!</p>
     <p>Enjoy the waiting<p>
     `;
 }
