@@ -30,7 +30,7 @@ function daRealMath(maintData, isPatch) {
     const averageTime = maintTimes.sort((a, b) => a - b)[index];
     mainMessage.innerHTML = `
     <p>Well, how could I know??</p>
-    <p>But studying the last ${maintTimes.length} ${isPatch? 'patch maintenances' : 'maintenances'}, the ETA is ${getHoursAndMinutesFormat(averageTime)} hours!</p>
+    <p>But studying the last ${maintTimes.length} ${isPatch? 'patch maintenances' : 'maintenances'}, the ETA is ${getHoursAndMinutesFormat(averageTime)}!</p>
     <p>Enjoy the waiting<p>
     `;
 }
@@ -40,7 +40,8 @@ function getHoursAndMinutesFormat(decimal) {
     const n = new Date(0, 0);
     n.setMinutes(+decimalTimeString * 60);
     const result = n.toTimeString().slice(0, 5);
-    return result;
+    const slicedResult = result.split(':');
+    return `${slicedResult[0]} hours and ${slicedResult[1]} mins`;
 }
 
 function mathWithTimeIReallyHate(startTime, endTime) {
