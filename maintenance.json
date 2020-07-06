@@ -334,5 +334,29 @@
     "endTime": "12:27",
     "date": "06/03/2020",
     "isPatch": false
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "12:02",
+    "date": "06/10/2020",
+    "isPatch": false
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "11:45",
+    "date": "06/17/2020",
+    "isPatch": false
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "13:06",
+    "date": "06/24/2020",
+    "isPatch": true
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "12:17",
+    "date": "07/01/2020",
+    "isPatch": false
   }
 ]
