@@ -358,5 +358,11 @@
     "endTime": "12:17",
     "date": "07/01/2020",
     "isPatch": false
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "11:37",
+    "date": "07/15/2020",
+    "isPatch": false
   }
 ]
