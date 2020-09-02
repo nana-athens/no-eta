@@ -13,12 +13,6 @@ body {
     font-family: 'Rubik', sans-serif;
     background-color: #1A1A1A;
     color: #FFFCE8;
-    /* background-image: url('images/hero.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-blend-mode: lighten;
-    background-position-y: bottom;
-    background-position-x: left; */
 }
 
 .header {
@@ -81,6 +75,10 @@ body {
     text-align: center;
     margin-top: 15px;
     line-height: 1.5;
+}
+
+.gigas-img {
+    mix-blend-mode: lighten;
 }
 
 .footer {

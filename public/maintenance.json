@@ -376,5 +376,24 @@
     "endTime": "14:02",
     "date": "08/05/2020",
     "isPatch": true
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "14:11",
+    "date": "08/12/2020",
+    "isPatch": false
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "12:17",
+    "date": "08/19/2020",
+    "isPatch": false
+  },
+  {
+    "startTime": "9:30",
+    "endTime": "12:03",
+    "date": "08/26/2020",
+    "isPatch": false
   }
+  
 ]
